@@ -1,0 +1,96 @@
+//----------------general------------
+
+body {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.wrapper {
+  max-width: 1440px;
+  padding: 0 135px;
+  margin: 0 auto;
+
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  color: #4B5D68;
+}
+
+.save-data__header {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 110%;
+  color: #212353;
+}
+
+.title {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #212353;
+}
+
+.subtitle {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 130%;
+  color: #212353;
+
+  z-index: 2;
+}
+
+.testimonials__subtitle {
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.card-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+
+  z-index: 2;
+}
+
+.mail {
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  color: #9C69E2;
+}
+
+.menu {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.logo {
+  width: 45px;
+  height: 35px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 8px;
+
+  &-violet {
+    width: 18px;
+    height: 20px;
+    background-color: #9C69E2;
+    border-radius: 20px;
+  }
+
+  &-pink {
+    width: 18px;
+    height: 35px;
+    background-color: #F063B8;
+    border-radius: 20px;
+  }
+}

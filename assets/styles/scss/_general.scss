@@ -18,11 +18,21 @@ body {
   color: #4B5D68;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 120px;
+}
+
 .save-data__header {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 80px;
-  line-height: 110%;
+  line-height: 110%; 
   color: #212353;
+  
 }
 
 .title {
@@ -69,6 +79,11 @@ body {
 .menu {
   font-size: 16px;
   line-height: 160%;
+
+  &__item:hover {
+    color: #8A40EE;
+    transition: 0.5s ease 0s;
+  }
 }
 
 .logo {
@@ -93,4 +108,44 @@ body {
     background-color: #F063B8;
     border-radius: 20px;
   }
+}
+
+// ----------buttons----------------
+
+.button-demo {
+  @extend %tpl-button;
+
+  padding-right: 23px;
+
+  background-color: #FFFFFF;
+
+  font-size: 16px;
+  line-height: 160%;
+  color: #212353;
+}
+
+.block__button {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 2;
+  top: 23px;
+  right: 23px;
+}
+
+.block__button:hover .button-demo {
+  transition: 1s;
+  background-color: #9C69E2;
+  color: #FFFFFF;
+}
+
+.block__button:hover .arrow-white {
+  transition: 1s;
+  stroke: #FFFFFF;
+}
+
+.block__button:hover .button-demo:hover {
+  transition: 0.5s;
 }

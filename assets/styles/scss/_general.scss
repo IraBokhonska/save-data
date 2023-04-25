@@ -1,3 +1,5 @@
+// ---------шаблони----------
+
 %tpl-button {
   width: 210px;
   height: 60px;
@@ -181,7 +183,7 @@ body {
   transition: 0.5s;
 }
 
-//-------------media---------------
+//------------general-media---------------
 
 @media (max-width: 1550px) {
   .wrapper {
@@ -197,7 +199,7 @@ body {
 
 @media (max-width: 1200px) {
   .main {
-    gap: 90px;
+    gap: 80px;
   }
 
   .save-data__header {
@@ -236,6 +238,11 @@ body {
 }
 
 @media (max-width: 576px) {
+  .save-data__header {
+    font-size: 45px;
+    line-height: 110%;  
+  }
+
   .title {
     font-size: 33px;
   }
@@ -243,19 +250,22 @@ body {
 
 @media (max-width: 480px) {
   .wrapper {
-    padding: 0 20px;
-
     font-size: 16px;
     line-height: 160%;
-  }
-
-  .save-data__header {
-    font-size: 45px;
-    line-height: 110%;  
   }
 
   .card-content {
     font-size: 14px;
     line-height: 160%;
+  }
+}
+
+@media (max-width: 360px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+  
+  .main {
+    gap: 40px;
   }
 }

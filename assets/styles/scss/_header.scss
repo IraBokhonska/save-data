@@ -31,7 +31,7 @@
 
 @media (max-width: 1200px) {
   .header {
-    padding-bottom: 60px;
+    padding-bottom: 50px;
   }
 
   .block__menu {
@@ -43,12 +43,18 @@
 
 @media (max-width: 768px) {
   .header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+
     &__logo {
       position: relative;
       z-index: 5;
     }
 
-    .header__buttons {
+    &__buttons {
       min-width: 220px;
 
       display: flex;
@@ -76,14 +82,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      }
-
-      &__item {
-        margin: 0px 0px 25px 0px;
-
-        &:last-child {
-          margin-bottom: 0;
-        }
+        gap: 20px;
       }
 
       &__link {
@@ -106,6 +105,8 @@
 		background-color: #fff;
 	}
 }
+
+// ------------------icon-menu---------------------
 
 .close-icon-menu,
 .icon-menu {

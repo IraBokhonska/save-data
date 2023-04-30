@@ -106,6 +106,17 @@
 	}
 }
 
+@media (max-width: 480px) {
+  .header {
+    &__buttons {
+      flex-direction: row-reverse;
+    }
+
+    .block__button {
+      display: none;
+    }
+  }
+}
 // ------------------icon-menu---------------------
 
 .close-icon-menu,

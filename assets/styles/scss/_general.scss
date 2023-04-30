@@ -15,19 +15,19 @@
 }
 
 %tpl-hover {
-  transition: 1s;
+  transition: 0.3s;
   background-color: #FFFFFF;
   border: 1px solid #3B5998;
   opacity: 1;
 
   .icon {
-    transition: 0.5s;
+    transition: 0.3s;
     fill: #3B5998;
     opacity: 1;
   }
 
   .icon:hover {
-    transition: 1s;
+    transition: 0.4s;
     fill:#3B5998;
     opacity: 1;
   }
@@ -115,7 +115,7 @@ body {
 
   &__item:hover {
     color: #8A40EE;
-    transition: 0.5s ease 0s;
+    transition: 0.3s ease 0s;
   }
 }
 
@@ -169,18 +169,18 @@ body {
 }
 
 .block__button:hover .button-demo {
-  transition: 1s;
+  transition: 0.3s;
   background-color: #9C69E2;
   color: #FFFFFF;
 }
 
 .block__button:hover .arrow-white {
-  transition: 1s;
+  transition: 0.3s;
   stroke: #FFFFFF;
 }
 
 .block__button:hover .button-demo:hover {
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 //------------general-media---------------

@@ -35,7 +35,7 @@
     &:hover {
       background: #8A40EE;
       border: 1px solid #8A40EE;
-      transition: 0.5s;
+      transition: 0.3s;
     }
   }
 
@@ -247,6 +247,8 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+
+    z-index: 5;
   }
 }
 
